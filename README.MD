@@ -10,6 +10,9 @@ If you are in a Unix Machine just run the run.sh file:
 
 `./run.sh`
 
+In case gradle tells you that tools.jar is missing it should be necessary to 
+uncomment the first line on run.sh and set it to your java installation path.
+
 In case you are on another operating system or anything unexpected happened I suggest building with Gradle:
 
 `./gradlew build` on Unix or
